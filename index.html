@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyLifeInTheKitchen</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Warning1">Warning 1</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="search">
-            <form>
-                <input type="text" placeholder="Search users">
-                <button type="submit">Search</button>
-            </form>
+        <section id="home">
+            <h1>Welcome to MyLifeInTheKitchen</h1>
+            <p>Warnings will be posted here after posted to the group.</p>
         </section>
-        <section class="results">
-            <h2>Search Results</h2>
-            <ul class="users">
-                <!-- Results will be populated here -->
+
+        <section id="Warning1">
+            <h2>Warning 1</h2>
+            <p>Lola, Ash, Eva, Abbie, Ryan, Evie.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
             </ul>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2022 LifeInTheKitchen. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: wafiqdad@icloud.com</p>
+            
